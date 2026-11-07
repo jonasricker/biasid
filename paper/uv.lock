@@ -288,7 +288,7 @@ wheels = [
 [[package]]
 name = "biasid"
 version = "1.0.0"
-source = { editable = "../biasid" }
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "datasets" },
     { name = "joblib" },
@@ -301,26 +301,9 @@ dependencies = [
     { name = "torchvision" },
     { name = "tqdm" },
 ]
-
-[package.metadata]
-requires-dist = [
-    { name = "datasets", specifier = ">=4.8.0" },
-    { name = "joblib", specifier = ">=1.5.3" },
-    { name = "matplotlib", specifier = ">=3.10.0" },
-    { name = "pandas", specifier = ">=3.0.0" },
-    { name = "pillow", specifier = ">=12.1.0" },
-    { name = "scienceplots", specifier = ">=2.2.1" },
-    { name = "torch", specifier = ">=2.10.0" },
-    { name = "torchmetrics", specifier = ">=1.9.0" },
-    { name = "torchvision", specifier = ">=0.25.0" },
-    { name = "tqdm", specifier = ">=4.67.0" },
-]
-
-[package.metadata.requires-dev]
-dev = [
-    { name = "pytest", specifier = ">=9.1.1" },
-    { name = "pytest-cov", specifier = ">=7.1.0" },
-    { name = "ruff", specifier = ">=0.16.2" },
+sdist = { url = "https://files.pythonhosted.org/packages/e6/c6/802a8de325383793fc67c89a779fa56ce176c6f70afffdc6cbc4284f4b7a/biasid-1.0.0.tar.gz", hash = "sha256:dfbb3c7174ba3551e415157bcff03474a4e2e00677d23b2c61a728d0970c4dc4", size = 11696, upload-time = "2026-11-05T12:36:22.918Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/6c/49/658ddc0e7b1abe7b1d828b4dd4c5f6b02f6743d3796f123b8db4c7903bc9/biasid-1.0.0-py3-none-any.whl", hash = "sha256:9896ddc334b6d5737b46b636a38b4a2c4cd12ffc2ca061c3ceac31a116dea6fc", size = 14922, upload-time = "2026-11-05T12:36:21.459Z" },
 ]
 
 [[package]]
@@ -603,7 +586,7 @@ requires-dist = [
     { name = "autocvd", specifier = "==0.2.1" },
     { name = "babel", specifier = "==2.18.0" },
     { name = "beautifulsoup4", specifier = "==4.14.3" },
-    { name = "biasid", editable = "../biasid" },
+    { name = "biasid", specifier = ">=1.0.0" },
     { name = "bitsandbytes", specifier = "==0.49.2" },
     { name = "bleach", specifier = "==6.3.0" },
     { name = "boto3", specifier = "==1.43.0" },

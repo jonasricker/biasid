@@ -26,7 +26,7 @@ dependencies = [
     "autocvd==0.2.1",
     "babel==2.18.0",
     "beautifulsoup4==4.14.3",
-    "biasid",
+    "biasid>=1.0.0",
     "bitsandbytes==0.49.2",
     "bleach==6.3.0",
     "boto3==1.43.0",
@@ -258,7 +258,6 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-biasid = { path = "../biasid", editable = true }
 clip = { git = "https://github.com/openai/CLIP.git" }
 
 [tool.ruff]
