@@ -30,7 +30,7 @@ from utils import (
     render_bias_analysis_table,
 )
 
-RESULT_DIR = Path("new_results")
+RESULT_DIR = Path("results")
 BIAS_ANALYSIS_DIR = RESULT_DIR / "bias_analysis"
 SAMPLE_SIZE_ANALYSIS_DIR = RESULT_DIR / "sample_size_analysis"
 ILLUSTRATIVE_EXAMPLE_DIR = RESULT_DIR / "illustrative_example"
