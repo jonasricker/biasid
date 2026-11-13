@@ -1,8 +1,15 @@
-# [NeurIPS E&D 2026] BIAS-ID: A Framework for Analyzing Transformation Biases in AI-Generated Image Detectors
+<div align="center">
+
+<img src="logo.svg" width="400" alt="BIAS-ID Logo">
+      
+[![arXiv](https://img.shields.io/badge/arXiv-2605.31153-b31b1b)](https://arxiv.org/abs/2605.31153)
+![PyPI Version](https://img.shields.io/pypi/v/biasid?label=PyPI)
+
+</div>
+
+**BIAS-ID: A Framework for Analyzing Transformation Biases in AI-Generated Image Detectors**  
 Jonas Ricker, Asja Fischer, Erwin Quiring  
 *40th Conference on Neural Information Processing Systems (NeurIPS 2026). Track on Evaluations and Datasets*
-
-[![arXiv](https://img.shields.io/badge/arXiv-2605.31153-b31b1b)](https://arxiv.org/abs/2605.31153)
 
 This repository is split into two parts:
 - [biasid](biasid) contains the `biasid` package, which is available on pip (`pip install biasid`)
