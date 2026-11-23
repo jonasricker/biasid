@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="logo.svg" width="400" alt="BIAS-ID Logo">
+<img src="logo.png" width="400" alt="BIAS-ID Logo">
       
 [![arXiv](https://img.shields.io/badge/arXiv-2605.31153-b31b1b)](https://arxiv.org/abs/2605.31153)
 ![PyPI Version](https://img.shields.io/pypi/v/biasid?label=PyPI)
